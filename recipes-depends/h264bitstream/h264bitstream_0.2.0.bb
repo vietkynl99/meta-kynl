@@ -13,3 +13,7 @@ S = "${WORKDIR}/git"
 inherit autotools
 
 FILES_${PN} += "${libdir}/* /usr/share"
+
+do_install_append() {
+    install -m 0755 ${S}/bs.h ${D}${includedir}
+}
