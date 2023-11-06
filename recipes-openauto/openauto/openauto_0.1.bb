@@ -10,6 +10,7 @@ DEPENDS += "aasdk qt-gstreamer h264bitstream pulseaudio gpsd taglib util-linux l
 
 inherit cmake_qt5
 
+# Build for Raspberrypi
 EXTRA_OECMAKE += "-DRPI_BUILD=TRUE"
 
 # Use Gstreamer video output

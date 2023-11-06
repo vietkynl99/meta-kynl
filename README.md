@@ -15,9 +15,11 @@ Yocto layer is used to build a Linux image containing the Qt features and OpenAu
 
   URI: https://github.com/aizvorski/h264bitstream
   branch: master
+  version: 0.2.0
 
   URI: https://github.com/thestk/rtaudio
   branch: master
+  version: 5.1.0
 
 ## How to build Raspberrypi 4 image
 ### 1. Setup yocto
